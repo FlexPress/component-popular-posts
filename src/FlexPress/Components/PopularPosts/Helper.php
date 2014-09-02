@@ -2,6 +2,8 @@
 
 namespace FlexPress\Components\PopularPosts;
 
+use FlexPress\Plugins\PopularPosts\PopularPosts as PopularPostsPlugin;
+
 class Helper
 {
 
