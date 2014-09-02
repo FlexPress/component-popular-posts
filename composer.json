@@ -3,7 +3,8 @@
     "description": "FlexPress popular posts component",
     "license": "MIT",
     "require": {
-        "pimple/pimple": "2.0.*"
+        "pimple/pimple": "2.0.*,
+	"flexpress/plugin-popular-posts/", "1.0.*"
     },
     "autoload": {
         "psr-4": {
