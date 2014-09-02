@@ -1,15 +1,13 @@
 {
-    "name": "flexpress/popular-posts",
-    "description": "FlexPress based plugin",
-    "type": "project",
+    "name": "flexpress/component-popular-posts",
+    "description": "FlexPress popular posts component",
     "license": "MIT",
     "require": {
-        "pimple/pimple": "2.0.*",
-        "flexpress/component-plugin": "1.0.*"
+        "pimple/pimple": "2.0.*"
     },
     "autoload": {
         "psr-4": {
-            "FlexPress\\Plugins\\PopularPosts\\": "src/FlexPress/Plugins/PopularPosts"
+            "FlexPress\\Components\\PopularPosts\\": "src/FlexPress/Components/PopularPosts"
         }
     }
 }
