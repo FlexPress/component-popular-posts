@@ -10,8 +10,8 @@ $pimple['popularPostsHelper'] = function() {
 ## Usage
 
 ```
-$popularPosts = $pimple['popularPostsHelper'];
-
+$popularPostsHelper = $pimple['popularPostsHelper'];
+$popularPosts = $popularPostsHelper->getPopular('post');
 ```
 
 The getPopular method takes 3 params:
